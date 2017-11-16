@@ -1,0 +1,33 @@
+
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  font-size: 16px;
+  font-family: 微软雅黑;
+}
+
+
+.container-fluid {
+  width: 940px;
+  .center-block();
+}
+
+h1{
+ font-size: 28px; 
+ font-family: 微软雅黑;
+ font-weight: bold;
+}
+h2{
+ font-size: 20px; 
+ font-family : 微软雅黑;
+ font-weight: bold;
+}
+P{
+	margin-top:8px;
+	margin-bottom:5px;
+}
+
+
+
+

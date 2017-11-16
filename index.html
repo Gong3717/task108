@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Paper</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+   <div class="container-fluid">
+      <h1>统一建模语言测试</h1>
+          <div class="row">
+			    <div class="col-xs-4 col-md-4"><p>考试科目：统一建模语言</p></div>               
+			    <div class="col-xs-4 col-md-4"><p>时间：100分钟</p></div> 
+			    <div class="col-xs-4 col-md-4"><p>得分：100</p></div>
+          </div>
+		  <div class="row">
+			  <div class="col-xs-4 col-md-4"><p>班级：<input type="text"  value="1班" style="width:105px"> </p></div>               
+			  <div class="col-xs-4 col-md-4"><p>学号: <input type="text"  value="001" style="width:105px"></p></div> 
+			  <div class="col-xs-4 col-md-4"><p>姓名：<input type="text"  value="XXX" style="width:105px">	</p></div>
+		  </div>	
+    <section id="fill_in_the_blank">	  
+	    <h2> 一、填空题（每空5分，共20分）</h2>
+	    <p>1.UML的中文全称是：<input type="text" id="answer1" value="统一建模语言"> </p> 
+    	<p>2.对象最突出的特征是:
+		 <input type="text" id="answer2" value="封装性"> 
+		 <input type="text" id="answer3" value="继承性"> 
+		 <input type="text" id="answer4" value="多态性">
+		</p>	
+	</section>
+	<section id="sigle_choice">
+		<h2> 二、选择题（每题10分，共20分）</h2> 
+		<div class="col-md-12">
+		   <p> 1.UML与软件工程的关系是：</p>
+				<input name="sigle_choice1" type="radio" value="A"  id="A" checked="checked">(A)UML就是软件工程<br>
+				<input name="sigle_choice1" type="radio" value="B"  id="B" >(B)UML参与到软件工程中软件开发过程的几个阶段<br>
+				<input name="sigle_choice1" type="radio" value="C"  id="C" >(C)UML与软件工程无关<br>
+				<input name="sigle_choice1" type="radio" value="D"  id="D" >(D)UML是软件工程的一部分<br>
+	    </div>
+		<div class="col-md-12">
+		   <p> 2.Java语言支持：</p>	
+			    <input name="sigle_choice2" type="radio" value="A1"  id="A1" checked>(A)单继承<br>
+				<input name="sigle_choice2" type="radio" value="B1"  id="B1">(B)多继承<br>
+				<input name="sigle_choice2" type="radio" value="C1"  id="C1">(C)单继承和多继承都支持<br>
+				<input name="sigle_choice2" type="radio" value="D1"  id="D1">(D)单继承和多继承都不支持<br>
+		</div>
+	</section>
+	 <section id="mutiply_choice">
+		<h2> 三、多择题（每题10分，共20分）</h2>
+		<p> 1.用例的粒度分为以下哪三种：</p>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice1" type="checkbox" checked="checked" id="a" >(A)概述级
+		</div>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice1" type="checkbox" checked="checked" id="b">(B)需求级
+		</div>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice1" type="checkbox" id="c" >(C)用户目标级
+		</div>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice1" type="checkbox" checked="checked" id="d">(D)子功能级
+	   </div>
+	   <p> 2.类图由以下那三部分组成：</p>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice2" type="checkbox" checked id="a1">(A)名称 
+		</div>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice2" type="checkbox" checked id="b1">(B)属性
+		</div>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice2" type="checkbox" checked id="c1">(C)操作
+		</div>
+		<div class=" col-md-12">
+		   <input name="mutiply_choice2" type="checkbox" id="d1">(D)方法
+	   </div>
+	 </section>
+	 <section id="true_or_false">
+		<h2> 四、判断题（每题10分，共20分）</h2> 
+		<div class=" col-md-12">
+		   <p>1.用例图只是用于和客户交流和沟通的，用于确定需求。</p>
+		   <input name="true_or_false1" type="radio" value="&radic;"  id="a2" >&radic;
+		   <input name="true_or_false1" type="radio" value="x"  id="b2" checked>x;
+		</div>
+		<div class=" col-md-12">
+		   <p>2.在状态图中，终止状态在一个状态图中允许有任意多个。</p>
+		   <input name="true_or_false2"  type="radio" value="&radic;" id="a3" checked>&radic;
+		   <input name="true_or_false2"  type="radio" value="x" id="b3" >x;
+		</div>
+	 </section>
+	 <section id="short_answer">
+		<h2> 五、简答题（每题20分，共20分）</h2> 
+		<p style="text-indent:1em;"> 1.简述什么是模型及模型的表现形式？</p>
+		<div class=" col-md-12">
+		   <textarea rows="5" cols="70" id="answer" >模型是对现实世界的简化和抽象。模型是对所研究的系统、过程、事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
+		</div>
+	  </section>
+	   
+		 
+	 <button type="button" class="btn btn-info" onclick="claculate()" value=>计算分数</button>
+	  
+	  
+	</div>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/index.js"></script>
+   
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+	
+  </body>
+</html>
